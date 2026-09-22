@@ -68,7 +68,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto gap-4 pt-4 pt-lg-0">
             <li class="nav-item">
-              <a class="nav-link text-primary" aria-current="page" href="index.html#hero"
+              <a
+                class="nav-link text-primary"
+                aria-current="page"
+                href="index.html#hero"
                 >Home</a
               >
             </li>
@@ -76,10 +79,14 @@
               <a class="nav-link text-primary" href="index.html#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-primary" href="index.html#services">Services</a>
+              <a class="nav-link text-primary" href="index.html#services"
+                >Services</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-primary" href="index.html#recent">Recent</a>
+              <a class="nav-link text-primary" href="index.html#recent"
+                >Recent</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link text-primary" href="index.html#faq">FAQ</a>
@@ -90,26 +97,93 @@
     </nav>
 
     <!-- content -->
-     <div class="container">
-        <div class="row">
-            <div class="col-8">
-                <h1 class="fw-bold text-primary-emphasis">Laporan Kelas Kotor</h1>
-                <p class="text-secondary">By <a class="text-decoration-none fw-semibold" href="">Rahiq Makhtum</a> | 2 jam yang lalu</p>
+    <div class="container">
+      <div class="row py-4">
+        <div class="col-lg-8">
+            <nav class="mt-4 mb-5 d-lg-none" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item">
+                <a href="reports.html">All Report</a>
+              </li>
+              <li class="breadcrumb-item active" aria-current="page">
+                Laporan Kelas Kotor
+              </li>
+            </ol>
+          </nav>
 
-                <div class="height: 400px; object-fit: cover;">
-                    <img src="./assets/image/kelas kotor.webp" class="img-fluid rounded shadow-sm" alt="">
-                </div>
+          <h1 class="fw-bold text-primary-emphasis">Laporan Kelas Kotor</h1>
+          <p class="text-secondary">
+            By
+            <a class="text-decoration-none fw-semibold" href=""
+              >Rahiq Makhtum</a
+            >
+            | 2 jam yang lalu
+          </p>
 
-                <p class="mt-4 lh-lg ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi similique vero temporibus reprehenderit labore, sapiente explicabo non veritatis suscipit eveniet in iure adipisci a! Nobis, impedit? Est temporibus repellendus praesentium!</p>
-                <blockquote class="border-start border-3 border-primary p-3 fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, debitis!</blockquote>
-                <p class="lh-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti ut, quam provident libero id quia.</p>
+          <div class="height: 400px; object-fit: cover;">
+            <img
+              src="./assets/image/kelas kotor.webp"
+              class="img-fluid rounded shadow-sm"
+              alt=""
+            />
+          </div>
 
-                <hr>
-                <h4 class="fw-semibold">Komentar</h4>
+          <p class="mt-4 lh-lg">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
+            similique vero temporibus reprehenderit labore, sapiente explicabo
+            non veritatis suscipit eveniet in iure adipisci a! Nobis, impedit?
+            Est temporibus repellendus praesentium!
+          </p>
+          <blockquote
+            class="border-start border-3 border-primary p-3 fst-italic"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum,
+            debitis!
+          </blockquote>
+          <p class="lh-lg">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti
+            ut, quam provident libero id quia.
+          </p>
+
+          <hr />
+          <h4 class="fw-semibold">Komentar</h4>
+          <form action="">
+            <div>
+              <textarea class="form-control shadow-sm" rows="3"></textarea>
             </div>
+            <button class="btn btn-primary mt-3">
+              kirim <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </form>
         </div>
-     </div>
-     
+        <!-- sidebar -->
+        <div class="col-lg-4">
+        <nav class="mt-4 mb-5 d-none d-lg-block" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item">
+                <a href="reports.html">All Report</a>
+              </li>
+              <li class="breadcrumb-item active" aria-current="page">
+                Laporan Kelas Kotor
+              </li>
+            </ol>
+        </nav>
+        <div class="mt-5">
+            <div class="card-header fw-bold">Laporan Serupa</div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item mn-2"><i class="fa-solid fachevron-right text-primary"></i> AC Kelas Tidak Dingin
+              </li>
+              <li class="list-group-item mn-2"><i class="fa-solid fachevron-right text-primary"></i>Wifi Ngelag
+              </li>
+              <li class="list-group-item mn-2"><i class="fa-solid fachevron-right text-primary"></i> kursi hilang
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- FOOTER -->
     <footer class="bg-primary py-5">
@@ -132,7 +206,9 @@
               href="index.html#hero"
               >Home</a
             >
-            <a class="text-white text-decoration-none footer-link" href="index.html#about"
+            <a
+              class="text-white text-decoration-none footer-link"
+              href="index.html#about"
               >About</a
             >
             <a
@@ -145,7 +221,9 @@
               href="index.html#recent"
               >Recent</a
             >
-            <a class="text-white text-decoration-none footer-link" href="index.html#faq"
+            <a
+              class="text-white text-decoration-none footer-link"
+              href="index.html#faq"
               >FAQ</a
             >
           </div>
